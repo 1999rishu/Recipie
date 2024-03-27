@@ -1,0 +1,60 @@
+/* Inside src/loginPage.css */
+
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set height to fill viewport */
+  background-color: #f0f2f5; /* Background color similar to Facebook */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  transition: box-shadow 0.3s ease; /* Add transition for hover effect */
+}
+
+form:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+input {
+  padding: 12px 15px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease; /* Add transition for hover effect */
+}
+
+input:hover {
+  border-color: #888; /* Change border color on hover */
+}
+
+button {
+  background-color: #1877f2; /* Facebook blue */
+  border: none;
+  color: #fff;
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for hover effect */
+}
+
+button:hover {
+  background-color: #1462cb; /* Darker blue on hover */
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #1877f2; /* Facebook blue */
+}

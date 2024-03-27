@@ -1,0 +1,51 @@
+/* CSS for Front.jsx */
+
+.naver {
+  display: flex;
+  height: 80px;
+  background-color: blue;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+}
+
+.naver ul {
+  display: flex;
+  align-items: center;
+}
+
+.naver ul li {
+  margin: 0 1.5rem; /* Adjusted margin */
+}
+
+a {
+  color: #000;
+  text-decoration: none; /* Removed underline */
+}
+
+/* Additional CSS for Overall Styling */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}

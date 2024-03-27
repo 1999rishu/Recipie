@@ -1,0 +1,28 @@
+/* Inside View.css */
+
+.view-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .view-container:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .view-container table {
+    width: 100%;
+  }
+  
+  .view-container table td {
+    padding: 8px;
+  }
+  
+  .view-container h2 {
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
